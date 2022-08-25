@@ -13,6 +13,11 @@
 		5F11D47E28B4A7CC00D3C31F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F11D47C28B4A7CC00D3C31F /* Main.storyboard */; };
 		5F11D48028B4A7CE00D3C31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F11D47F28B4A7CE00D3C31F /* Assets.xcassets */; };
 		5F11D48328B4A7CE00D3C31F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F11D48128B4A7CE00D3C31F /* LaunchScreen.storyboard */; };
+		5F11D4A828B4B1F600D3C31F /* FoodItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11D4A628B4B1F600D3C31F /* FoodItemCollectionViewCell.swift */; };
+		5F11D4A928B4B1F600D3C31F /* FoodItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F11D4A728B4B1F600D3C31F /* FoodItemCollectionViewCell.xib */; };
+		5F11D4AB28B4B57E00D3C31F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11D4AA28B4B57E00D3C31F /* Models.swift */; };
+		5F63196528B4E91D008BA179 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63196328B4E91D008BA179 /* UserCollectionViewCell.swift */; };
+		5F63196628B4E91D008BA179 /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F63196428B4E91D008BA179 /* UserCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5F11D47F28B4A7CE00D3C31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F11D48228B4A7CE00D3C31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F11D48428B4A7CE00D3C31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F11D4A628B4B1F600D3C31F /* FoodItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F11D4A728B4B1F600D3C31F /* FoodItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		5F11D4AA28B4B57E00D3C31F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5F63196328B4E91D008BA179 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F63196428B4E91D008BA179 /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 			children = (
 				5F11D47528B4A7CC00D3C31F /* DragNDropEx */,
 				5F11D47428B4A7CC00D3C31F /* Products */,
+				FA71B513263C5C2752C80E19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +74,20 @@
 				5F11D47F28B4A7CE00D3C31F /* Assets.xcassets */,
 				5F11D48128B4A7CE00D3C31F /* LaunchScreen.storyboard */,
 				5F11D48428B4A7CE00D3C31F /* Info.plist */,
+				5F11D4A628B4B1F600D3C31F /* FoodItemCollectionViewCell.swift */,
+				5F11D4A728B4B1F600D3C31F /* FoodItemCollectionViewCell.xib */,
+				5F11D4AA28B4B57E00D3C31F /* Models.swift */,
+				5F63196328B4E91D008BA179 /* UserCollectionViewCell.swift */,
+				5F63196428B4E91D008BA179 /* UserCollectionViewCell.xib */,
 			);
 			path = DragNDropEx;
+			sourceTree = "<group>";
+		};
+		FA71B513263C5C2752C80E19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +97,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F11D48728B4A7CE00D3C31F /* Build configuration list for PBXNativeTarget "DragNDropEx" */;
 			buildPhases = (
+				52EA0BC6B89308F87A9EEC9E /* [CP] Check Pods Manifest.lock */,
 				5F11D46F28B4A7CC00D3C31F /* Sources */,
 				5F11D47028B4A7CC00D3C31F /* Frameworks */,
 				5F11D47128B4A7CC00D3C31F /* Resources */,
@@ -126,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F11D48328B4A7CE00D3C31F /* LaunchScreen.storyboard in Resources */,
+				5F63196628B4E91D008BA179 /* UserCollectionViewCell.xib in Resources */,
+				5F11D4A928B4B1F600D3C31F /* FoodItemCollectionViewCell.xib in Resources */,
 				5F11D48028B4A7CE00D3C31F /* Assets.xcassets in Resources */,
 				5F11D47E28B4A7CC00D3C31F /* Main.storyboard in Resources */,
 			);
@@ -133,12 +159,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52EA0BC6B89308F87A9EEC9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragNDropEx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F11D46F28B4A7CC00D3C31F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5F11D47B28B4A7CC00D3C31F /* ViewController.swift in Sources */,
+				5F11D4A828B4B1F600D3C31F /* FoodItemCollectionViewCell.swift in Sources */,
+				5F11D4AB28B4B57E00D3C31F /* Models.swift in Sources */,
+				5F63196528B4E91D008BA179 /* UserCollectionViewCell.swift in Sources */,
 				5F11D47728B4A7CC00D3C31F /* AppDelegate.swift in Sources */,
 				5F11D47928B4A7CC00D3C31F /* SceneDelegate.swift in Sources */,
 			);
@@ -293,6 +348,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +377,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
