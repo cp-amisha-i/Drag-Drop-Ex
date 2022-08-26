@@ -3,7 +3,7 @@
 <img src="https://github.com/cp-amisha-i/Drag-Drop-Ex/blob/main/DragNDropEx/GIF/Sample.gif" />
 
 
-For detailed implementaion checkout [article](https://medium.com/p/ea21d1f4045c)
+For detailed implementaion checkout [article](https://blog.canopas.com/ios-drag-and-drop-collection-view-cell-using-swift-ea21d1f4045c)
 
 # Licence
 
